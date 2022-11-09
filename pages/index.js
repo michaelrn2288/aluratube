@@ -2,6 +2,7 @@ import config from '../config.json'
 import styled from 'styled-components'
 import {CSSReset} from '../src/components/CSSReset'
 import Menu from '../src/components/Menu'
+import Favorites from '../src/components/Favorites'
 import {StyledTimeline} from '../src/components/Timeline'
 
 export default function HomePage() {
@@ -16,6 +17,7 @@ export default function HomePage() {
             <Timeline playlists={config.playlists} >
                 Conteúdo
             </Timeline>
+            <Favorites />
         </div>
         </>
     )

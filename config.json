@@ -2,6 +2,12 @@
     "name": "Michael Rocha",
     "job": "Frontend Developer",
     "github": "michaelrn2288",
+    "favorites": [
+        {
+            "thumb": "",
+            "channel": ""
+        }
+    ],
     "playlists": {
         "games": [
             {
